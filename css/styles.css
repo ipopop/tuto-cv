@@ -9,8 +9,10 @@ body {
 }
 
 a:link {
-  color: #E4F9F5;
-  text-decoration:none;
+  /* color: #E4F9F5; */
+  text-decoration: none;
+  font-family : 'Montserrat',
+                sans-serif;
 }
 
 .preload-img {
@@ -76,9 +78,20 @@ hr {
    background-color: #66BFBF;
    padding: 50px 0 20px;
 }
-.bottom-container a {
+
+.footer-link {
   margin: 0 15px 0 15px;
-  color: #E4F9F5;
+  color: #11999E;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
 }
 
 .skill-row {
@@ -126,9 +139,9 @@ hr {
 }
 
 .contact-btn {
-  	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
-  	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
-  	box-shadow:inset 0px 1px 0px 0px #a4e271;
+  	-moz-box-shadow:inset 0px 1px 0px 0px #30e3cb;
+  	-webkit-box-shadow:inset 0px 1px 0px 0px #30e3cb;
+  	box-shadow:inset 0px 1px 0px 0px #30e3cb;
   	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #30e3cb), color-stop(1, #2bc4ad) );
   	background:-moz-linear-gradient( center top, #30e3cb 5%, #2bc4ad 100% );
   	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#30e3cb', endColorstr='#2bc4ad');
@@ -157,7 +170,7 @@ hr {
   width:140px;
   	text-decoration:none;
   	text-align:center;
-  	text-shadow:0px 1px 0px #528009;
+  	text-shadow:0px 1px 0px #30e3cb;
   }.contact-btn:hover {
   	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2bc4ad), color-stop(1, #30e3cb) );
   	background:-moz-linear-gradient( center top, #2bc4ad 5%, #30e3cb 100% );
