@@ -26,7 +26,7 @@ a:link {
 
 h1 {
   color: #66BFBF;
-  margin  : 50px auto 25px auto;
+  margin  : 50px auto 25px;
   font-size: 5.625rem;
   line-height: 1;
   font-family : 'Sacramento',
@@ -65,7 +65,6 @@ hr {
 .top-container {
   position         : relative;
   padding-top      : 100px;
-     background-color: #66BFBF;
      padding: 50px 0 20px;
   background-color : #E4F9F5;
 }
@@ -80,7 +79,7 @@ hr {
 }
 
 .footer-link {
-  margin: 0 15px 0 15px;
+  margin: 0 15px;
   color: #11999E;
 }
 
@@ -96,7 +95,7 @@ hr {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 100px auto;
   text-align: left;
 }
 
